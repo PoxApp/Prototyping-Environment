@@ -6,7 +6,7 @@ This project provides a way to maintain and quickly adapt complex surveys and th
 
 ## Structure
 
-### [Questionnaire Editor](/covquestions-editor-app/README.md) ([Demo](https://covquestions.z16.web.core.windows.net/))
+### [Questionnaire Editor](/covquestions-editor-app/README.md) 
 
 The Editor allows a quick adaption of any Questionnaire, it allows do define, try and test them via a WebApp.
 You can define questions and logic to display specfic Questions depending on answers from others or a scoring logic.
