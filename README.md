@@ -17,7 +17,7 @@ All of this can be tested manually and automatically in the editor.
 
 The Engine allows you to run any specified questionnaire interactively.
 
-#### [Covscript](./covscript/README.md)
+#### [Script Language](./covscript/README.md)
 
 A custom parser to make it easier to work with `json-logic` which we use under the hood for the questionnaire logic.
 
