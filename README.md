@@ -1,8 +1,8 @@
 Quicklinks: [Documents](https://drive.google.com/drive/folders/1YpAaD8_mvSkpHuIvbIJmsb08GLVQt8iE?usp=sharing) | [OpenAPI Spec](https://covopen.github.io/CovQuestions/swagger/index.html)
 
-# CovQuestions
+# PoxApp Prototyping Enviroment
 
-This project provides a way to maintain and quickly adapt complex Questionnaires and their evaluation in mutliple languages and versions. It also provides a javascript engine to run those Questionnaires in any environment, e.g. on a website, telephone-hotline or chatbot.
+This project provides a way to maintain and quickly adapt complex surveys and their evaluation in mutliple languages and versions. It also provides a javascript engine to run those Questionnaires in any environment, e.g. on a website, telephone-hotline or chatbot.
 
 ## Structure
 
