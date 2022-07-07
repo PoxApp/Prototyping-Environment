@@ -1,9 +1,0 @@
-{
-  "packages": ["covquestions-editor-app", "covquestions-js", "covscript", "api/v1"],
-  "version": "independent",
-  "command": {
-    "publish": {
-      "conventionalCommits": true
-    }
-  }
-}
