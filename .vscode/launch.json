@@ -1,0 +1,71 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Index TS File",
+      "type": "node",
+      "request": "launch",
+      "args": ["index.ts"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}/api/v1/",
+      "protocol": "inspector",
+      "env": {
+        "DEVELOPMENT": "true"
+      }
+    },
+    {
+      "name": "Pre_Build_add_file TS File",
+      "type": "node",
+      "request": "launch",
+      "args": ["scripts/pre_build_add_new_file.ts"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}/api/v1/",
+      "protocol": "inspector"
+    },
+    {
+      "name": "Pre_Build_tranlations TS File",
+      "type": "node",
+      "request": "launch",
+      "args": ["scripts/pre_build_fixate_translations.ts"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}/api/v1/",
+      "protocol": "inspector"
+    },
+    {
+      "name": "Update Schemas TS File",
+      "type": "node",
+      "request": "launch",
+      "args": ["scripts/updateFilesFromSchema.ts"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector"
+    },
+    {
+      "name": "Generate Types TS File",
+      "type": "node",
+      "request": "launch",
+      "args": ["scripts/generateTypes.ts"],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector"
+    },
+    {
+      "name": "CovquestionsJS - Debug All Jest Tests",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/covquestions-js",
+      "runtimeArgs": ["--inspect-brk", "${workspaceRoot}/covquestions-js/node_modules/jest/bin/jest.js", "--runInBand"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "port": 9229
+    }
+  ]
+}
